@@ -1,0 +1,130 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(drip-october-font/DripOctober-vm0JA.ttf);
+}
+.logo{
+    height:5%;
+    width:5%;
+    display:flex;
+    justify-content: flex-start;
+}
+.spider3{
+    position: absolute;
+    right:62%;
+    top:10%;
+}
+.d{
+    position: absolute;
+    right:18%;
+    top:24%;
+}
+.heading{
+    letter-spacing: 5px;
+    font-family:cursive;
+    color:white;
+    position: absolute;
+    top:25%;
+    left:10%;
+    font-size: 4vw;
+    margin:0;
+    color:transparent;
+    -webkit-text-stroke: 0.1vw rgb(30, 211, 211);
+    background: url(des2.jpeg);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.description{
+    height: 36.5%;
+    width:33%;
+    position: absolute;
+    top:45%;
+    left:10%;
+    background-color:rgba(44, 108, 227, 0.5);
+    color:#00020B;
+    padding:0.5em;
+    border-radius: 10px;
+    font-family:cursive;
+    font-size: 1.5vw;
+    line-height:1.4;
+}
+.description:hover{
+    cursor: pointer;
+    background-color:transparent;
+    color: white;
+}
+.b{
+    width:8.5%;
+    height:8%;
+    text-align:center;
+    background-color:transparent ;
+    cursor:pointer;
+    font-size:1.25vw;
+    border:solid;
+    border-radius:25%;
+    border-color:white;
+    position:absolute;
+    top:3%;
+    transition:all 0.3s;
+}
+.home{
+    position:absolute;
+    left:57%;
+}
+.team{
+    position: absolute;
+    left:67%;
+}
+.event{
+    position: absolute;
+    left:77%;
+}
+.course{
+    position: absolute;
+    left:87%;
+}
+.home-text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.b:hover{
+    transform: translateY(-10px);
+    background-color: white;
+}
+.home-text:hover{
+    color:#00020B;
+}
+@media(max-width:700px){
+    .home-text{
+        font-size: 1.5vw;
+    }
+    .b{
+        height: 5%;
+    }
+}
+@media(max-width:400px){
+    .home-text{
+        font-size: 0.2vw;
+    }
+    .b{
+        height:2%;
+    }
+}
+@media(max-height:550px){
+    .description{
+        font-size: 1.25vw;
+    }
+}
+@media(max-height:380px){
+    .description{
+        font-size: 0.8vw;
+    }
+    .heading{
+        position: absolute;
+        top:15%;
+    }
+}
