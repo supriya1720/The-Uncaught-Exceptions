@@ -2,6 +2,10 @@
     font-family: myFirstFont;
     src: url(drip-october-font/DripOctober-vm0JA.ttf);
 }
+body{
+    background: url(b1.jpg) no-repeat center fixed;
+    background-size: cover;
+  }
 .logo{
     height:5%;
     width:5%;
@@ -32,7 +36,6 @@
     background: url(des2.jpeg);
     -webkit-background-clip: text;
     background-position: 0 0;
-    animation: back 20s linear infinite;
 }
 @keyframes back{
     100%{
